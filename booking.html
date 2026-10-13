@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>booking</title>
+    <link rel="stylesheet" href="style booking.css">
+</head>
+<body>
+
+ <nav>
+         <img src="img/image (1).png" alt="img" width="50px" height="50px">
+        <div>
+            <h3>WE SCHOOL </h3>
+            <p>Applied Technology</p>
+        </div>
+         <ul>
+           <li><a href="index.html">home</a></li>
+           <li><a href="login.html">login</a></li>
+           <li><a href="register.html">register</a></li>
+           <li><a href="booking.html">booking</a></li>
+        </ul>
+</nav>
+
+<div class="container">
+    <h1>Course Booking</h1>
+    <label for="">student Name</label>
+    <input type="text" placeholder="  Enter your name" required>
+    <label for="">Email</label>
+    <input type="email" placeholder="  Enter your email" required>
+    <label for="">Age</label>
+    <input type="number" required>
+    <label for="">Booking Date</label>
+    <input type="date" required>
+    <label for="">Select Course</label>
+    <select required>
+    <option value="">choose course</option>  
+    </select>
+    <label class="shift-label">choose shift:</label>
+    <div class="radio-group">
+        <input type="radio" id="morning" name="shift" value="morning">
+        <label for="morning">morning</label>
+
+          <input type="radio" id="evening" name="shift" value="evening">
+        <label for="evening">evening</label>
+
+    </div>
+    <div class="checkbox-group">
+        <input type="checkbox" id="confirm" required>
+        <label for="confirm">I confirm my booking information</label>
+    </div>
+
+    <label for="file">upload student file</label>
+    <input type="file" id="file">
+    <label for="notes">notes</label>
+    <textarea id="notes" placeholder="write your notes here" rows="4"></textarea>
+    <button type="submit" class="submit-btn">Book Now</button>
+    
+    
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<footer>
+    <p>&copy;2026 WE School-All Right Reserved</p>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

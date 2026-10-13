@@ -1,0 +1,137 @@
+body{
+    min-height: 100vh;
+background-color: #d2cccc;
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    background-color:#410258;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    left: 0%;
+    width: 100%;
+    margin-top:200px auto;
+    
+
+   
+
+
+}
+ nav ul {
+font-family: Arial, Helvetica, sans-serif;
+    gap: 25px;
+    display: flex;
+    list-style-type: none;
+    text-transform: capitalize;
+    margin-right: 30px;
+    margin-left: 1350px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ nav p{
+    margin-top: 0%;
+    color: #ffffff;
+    
+}
+h3{
+    margin-bottom: 2px; 
+    color: #ffffff;
+}
+img{
+    margin-left: 30px;
+}
+.container{
+      align-items: center;
+    
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+align-items: start;
+height: 600px;
+width: 500px;
+box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+margin: 40px auto 0 auto;
+
+}
+.container input[type="text"],
+.container input[type="email"],
+.container input[type="number"],
+.container input[type="date"],
+.container select,
+.container textarea
+{
+    width: 100%;
+border-radius: 5px;
+    border: 1px solid#ccc;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.container input[type="number"]{
+    height: 30px;
+}
+.shift-label{
+    text-align: center;
+    margin-top: 20px;
+
+}
+.radio-group, .checkbox-group{display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 10px 0px;
+   
+}
+.radio-group, .checkbox-group label{
+    font-weight: normal;
+    margin: 0%;
+}
+.submit-btn{
+    width: 100%;
+    background-color: #5c2d91;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+footer{
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    margin-top: 85px;
+    background-color: #171616;
+    color: #ffffff;
+}
+h1{
+    color: #410258;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
